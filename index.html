@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>VAMAKEUP</title>
+  </head>
+  <body>
+    <header id="inicio1">
+      <!--aca va todo el contenido del sitio-->
+      <h1>VAMakeup</h1>
+      <h2>Tienda de maquillaje</h2>
+    </header>
+
+    <nav>
+      <ul class="menu">
+        
+        <li><a href="index.html">HOME</a> </li>
+        <li><a href="nosotros.html">CONOCENOS </li>
+        <li><a href="productos.html">PRODUCTOS</a> </li>
+        <li><a href="catalogos.html">CATALOGOS</a> </li>
+        <li><a href="cursos.html">CURSOS</a> </li>
+      </ul>
+    </nav>
+
+    <!--contenido principal de la pág -->
+    <main>
+      <!--slider -->
+      <section>
+        <h2>novedades</h2>
+        <h3>sección de imagenes con texto</h3>
+        <img src="https://placedog.net/1000/300" alt="imagen de perro1" />
+
+        <h3>sección de imagenes con texto</h3>
+        <img src="https://placedog.net/1000/300" alt="imagen de perro2" />
+
+        <h3>sección de imagenes con texto</h3>
+        <img src="https://placedog.net/1000/300" alt="imagen de perro3" />
+      </section>
+
+      <!--productos -->
+      <h2>Novedades</h2>
+      <div class="productos">
+        
+
+        <h3>Belleza</h3>
+        <img src="https://placedog.net/300" alt="producto1" />
+
+        <h3>Cuidado fácial</h3>
+        <img src="https://placedog.net/300" alt="producto2" />
+
+        <h3>Cuidado capilar</h3>
+        <img src="https://placedog.net/300" alt="producto3" />
+
+        <h3>Accesorios</h3>
+        <img src="https://placedog.net/300" alt="producto4" />
+      </div>
+
+      <!--Destacados -->
+      <section class="productos-destacados">
+        <h2>PRODUCTOS DESTACADOS</h2>
+        <img src="https://placedog.net/200" alt="producto1" />
+
+        <img src="https://placedog.net/200" alt="producto2" />
+
+        <img src="https://placedog.net/200" alt="producto3" />
+
+        <img src="https://placedog.net/200" alt="producto4" />
+      </section>
+
+      <!--Contacto-subcripción -->
+      <section>
+        <form>
+          <fieldset>
+          <p>
+            <label for="nombre" class="colocar_nombre">Nombre* </label>
+            <input
+              type="name"
+              name="introducir_nombre"
+              id="nombre"
+              required
+              placeholder="Escribe tu nombre"
+            />
+          </p>
+
+          <p>
+            <label for="email" class="colocar_email">Email* </label>
+            <input
+              type="email"
+              name="introducir_email"
+              id="email"
+              required
+              placeholder="Escribe tu Email"
+            />
+          </p>
+
+          <p>
+            <label for="telefono" class="colocar_telefono">Teléfono* </label>
+            <input
+              type="tel"
+              name="introducir_telefono"
+              id="telefono"
+              placeholder="Escribe tu teléfono"
+            />
+          </p>
+
+          <p>
+            <label for="mensaje" class="colocar_mensaje">Mensaje* </label>
+            <textarea
+              name="introducir_mensaje"
+              class="texto_mensaje"
+              id="mensaje"
+              required
+              placeholder="Deja aquí tu comentario..."
+            ></textarea>
+          </p>
+
+          <p>
+            <label for="pais" class="pais">País* </label>
+
+            <select name="Pais">
+              <option value="Colombia">Colombia</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Chile">Chile</option>
+              <option value="Uruguay">Uruguay</option>
+            </select>
+          
+          </p>
+
+        </fieldset>
+
+
+      <fieldset>
+        
+          <div>
+            <p>Desea recibir copia a su correo
+              <input type="checkbox" name="acepta" value="1" />
+  
+            </p>
+  </div>
+
+
+          <input type="submit" value="Enviar formulario" />
+          <input type="reset" value="Limpiar formulario" />
+
+          <p class="aviso">
+            * los campos son obligatorios.
+          </p>
+        </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <p><a href="#inicio1">Volver arriba</a></p>
+
+    <footer>
+      <ul>
+        <li>instagram</li>
+        <li>facebook</li>
+        <li>gmail</li>
+      </ul>
+    </footer>
+  </body>
+</html>
